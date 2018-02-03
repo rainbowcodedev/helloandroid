@@ -21,51 +21,52 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingLeft="10dp"
-            android:paddingTop="25dp"
+            android:paddingLeft="@dimen/bg_left"
+            android:paddingTop="@dimen/bg_top"
             android:layout_weight="2"
             android:background="@android:color/holo_blue_dark">
 
             <TextView
-                android:text="Udacity"
+                android:text="@string/udacity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAllCaps="true"
-                android:paddingBottom="5dp"
-                android:textSize="25dp"
+                android:paddingBottom="@dimen/udacity_bottom"
+                android:textSize="@dimen/udacity"
                 android:textColor="@android:color/black"
                 />
 
             <TextView
-                android:text="2465 Latham St"
+                android:text="@string/address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                />
-
-            <TextView
-                android:text="Mountain View, CA 94043"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
-
-            <TextView
-                android:text="650-555-5555"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
+                android:drawableLeft="@drawable/ic_business_black_18dp"
+                android:drawablePadding="@dimen/drawable_biz_pad"
+                android:autoLink="map"
+                android:textColorLink="@android:color/black"
                 />
             <TextView
-                android:text="www.udacity.com"
+                android:text="@string/_650_555_5555"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="20dp"
+                android:drawableLeft="@drawable/ic_call_black_18dp"
+                android:drawablePadding="@dimen/drawable_phone_pad"
+                android:paddingTop="@dimen/phone_top_pad"
+                android:autoLink="phone"
+                android:textColorLink="@android:color/black"
+                />
+            <TextView
+                android:text="@string/www_udacity_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/web_top_pad"
                 android:textStyle="italic"
                 android:autoLink="web"
                 android:textColorLink="@android:color/black"

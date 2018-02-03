@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="udacity">25dp</dimen>
+    <dimen name="bg_left">10dp</dimen>
+    <dimen name="bg_top">25dp</dimen>
+    <dimen name="udacity_bottom">5dp</dimen>
+    <dimen name="phone_top_pad">5dp</dimen>
+    <dimen name="web_top_pad">20dp</dimen>
+    <dimen name="drawable_biz_pad">5dp</dimen>
+    <dimen name="drawable_phone_pad">5dp</dimen>
+</resources>
