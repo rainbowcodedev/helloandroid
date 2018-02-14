@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="udacity">25dp</dimen>
+    <dimen name="udacity">30sp</dimen>
     <dimen name="bg_left">10dp</dimen>
-    <dimen name="bg_top">25dp</dimen>
-    <dimen name="udacity_bottom">5dp</dimen>
+    <dimen name="bg_top">10dp</dimen>
+    <dimen name="udacity_bottom">15dp</dimen>
     <dimen name="phone_top_pad">5dp</dimen>
-    <dimen name="web_top_pad">20dp</dimen>
-    <dimen name="drawable_biz_pad">5dp</dimen>
-    <dimen name="drawable_phone_pad">5dp</dimen>
+    <dimen name="web_top_pad">10dp</dimen>
+    <dimen name="drawable_biz_pad">18dp</dimen>
+    <dimen name="drawable_phone_pad">18dp</dimen>
+    <dimen name="drawable_web_pad">18dp</dimen>
+    <dimen name="udacity_left_pad">8dp</dimen>
+    <dimen name="left_pad_biz">8dp</dimen>
+    <dimen name="left_pad_phone">8dp</dimen>
+    <dimen name="left_pad_web">8dp</dimen>
+    <dimen name="biz_font_size">16sp</dimen>
+    <dimen name="phone_font_size">16sp</dimen>
+    <dimen name="web_font_size">16sp</dimen>
 </resources>
