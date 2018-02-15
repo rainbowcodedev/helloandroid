@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@color/text_bg_color"
             android:orientation="vertical"
             android:paddingLeft="@dimen/bg_left"
             android:paddingTop="@dimen/bg_top">
@@ -51,10 +51,7 @@
                 android:drawablePadding="@dimen/drawable_biz_pad"
                 android:paddingLeft="@dimen/left_pad_biz"
                 android:text="@string/address"
-                android:textSize="@dimen/biz_font_size"
-                android:textColorLink="@android:color/black"
-                android:textAllCaps="true"
-                android:textIsSelectable="false"/>
+                android:textAppearance="@style/TextFont" />
 
             <TextView
                 android:id="@+id/phone"
@@ -66,10 +63,7 @@
                 android:paddingLeft="@dimen/left_pad_phone"
                 android:paddingTop="@dimen/phone_top_pad"
                 android:text="@string/_650_555_5555"
-                android:textSize="@dimen/phone_font_size"
-                android:textColorLink="@android:color/black"
-                android:textAllCaps="true"
-                android:textIsSelectable="false"/>
+                android:textAppearance="@style/TextFont" />
 
             <TextView
                 android:id="@+id/web"
@@ -80,13 +74,10 @@
                 android:drawablePadding="@dimen/drawable_web_pad"
                 android:paddingLeft="@dimen/left_pad_web"
                 android:paddingTop="@dimen/web_top_pad"
-                android:textSize="@dimen/web_font_size"
                 android:text="@string/www_udacity_com"
+                android:textAppearance="@style/TextFont"
                 android:textColorLink="@android:color/black"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:textIsSelectable="false"
-                />
+                android:textStyle="bold" />
             />
 
         </LinearLayout>
@@ -94,8 +85,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1.5"
+            android:background="@color/udacity_logo_bg"
             android:src="@drawable/udacity_logo" />
 
     </LinearLayout>
